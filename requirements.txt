@@ -3,3 +3,7 @@ pymongo>=4.0.0
 
 # Environment variable management
 python-dotenv>=1.0.0
+
+# Flask API service
+flask>=2.0.0
+flask-cors>=3.0.0
