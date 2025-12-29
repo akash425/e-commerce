@@ -1,0 +1,49 @@
+# Environment variables (contains sensitive data like MongoDB credentials)
+.env
+.env.local
+.env.*.local
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs (generated at runtime)
+logs/
+*.log
+
+# Checkpoint file (runtime data)
+data/checkpoint.json
+
+# Large data files (uncomment if orders.csv is too large)
+# data/orders.csv
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
